@@ -1,0 +1,33 @@
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.sidebar {
+	background-color: #1F2024;
+	color: #7049A5;
+}
+
+.header {
+	text-align: center;
+	overflow-x: hidden;
+}
+
+@media (min-width: 48em) {
+	.content {
+		padding: 2em 3em 0;
+		margin-left: 25%;
+	}
+
+	.header {
+		margin: 80% 2em 0;
+		text-align: right;
+	}
+
+	.sidebar {
+		position: fixed;
+		top: 0;
+		bottom: 0;
+	}
+}
