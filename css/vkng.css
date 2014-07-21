@@ -9,20 +9,51 @@
 	color: #7049A5;
 }
 
+.sidebar .me {
+	font-family: 'Comfortaa', cursive;
+	text-align: center;
+	margin: 5% 0 0 1em;
+}
+
 .header {
 	text-align: center;
 	overflow-x: hidden;
+	font-family: 'Comfortaa', cursive;
 }
 
+.avatar {
+	background: url(../img/me-1.png) no-repeat 0 0;
+	background-size: cover;
+	display: none;
+	border: 3px solid #802E30;
+	border-radius: 50px;
+	height: 100px;
+	width: 100px;
+}
+
+@media (min-width: 58em) {
+	.avatar {
+		border-radius: 70px;
+		height: 140px;
+		width: 140px;
+	}
+}
 @media (min-width: 48em) {
+	.sidebar .me {
+		margin: 20% auto 5%;
+	}
+	.avatar {
+		display: block;
+		margin: 0 auto;
+	}
 	.content {
 		padding: 2em 3em 0;
 		margin-left: 25%;
 	}
 
 	.header {
-		margin: 80% 2em 0;
-		text-align: right;
+		margin: 5% 2em 0;
+		text-align: left;
 	}
 
 	.sidebar {
