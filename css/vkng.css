@@ -4,21 +4,28 @@
 	box-sizing: border-box;
 }
 
+body {
+	background-color: #112130;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
 .sidebar {
-	background-color: #1F2024;
+	background-color: #312759;
 	color: #7049A5;
 }
 
 .sidebar .me {
-	font-family: 'Comfortaa', cursive;
+	font-size: 36pt;
+	font-weight: 300;
+	color: #905ED6;
+	letter-spacing: 3px;
 	text-align: center;
-	margin: 5% 0 0 1em;
+	margin: 3% 0 0 1em;
 }
 
 .header {
 	text-align: center;
 	overflow-x: hidden;
-	font-family: 'Comfortaa', cursive;
 }
 
 .avatar {
@@ -31,11 +38,22 @@
 	width: 100px;
 }
 
+.review {
+	color: #90E3C9;
+	font-size: 30pt;
+	font-weight: 300;
+	margin: 20% 0 0 100px;
+}
+
+.review .week {
+	color: #A98AD6;
+}
+
 @media (min-width: 58em) {
 	.avatar {
-		border-radius: 70px;
-		height: 140px;
-		width: 140px;
+		border-radius: 75px;
+		height: 150px;
+		width: 150px;
 	}
 }
 @media (min-width: 48em) {
@@ -44,11 +62,11 @@
 	}
 	.avatar {
 		display: block;
-		margin: 0 auto;
+		margin: 10px auto 0;
 	}
 	.content {
 		padding: 2em 3em 0;
-		margin-left: 25%;
+		margin-left: 29%;
 	}
 
 	.header {
