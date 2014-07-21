@@ -23,9 +23,24 @@ body {
 	margin: 3% 0 0 1em;
 }
 
-.header {
-	text-align: center;
-	overflow-x: hidden;
+.home-nav ul {
+	list-style: none;
+	margin: 0 0 0 10%;
+}
+
+.home-nav ul li{
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 34pt;
+	font-weight: 400;
+	text-transform: uppercase;
+	color: #90E3C9;
+}
+
+.home-nav ul li div{
+	font-size: 18px;
+	color: #A284CF;
+	text-transform: none;
+	margin: -5px 0 0 0;
 }
 
 .avatar {
@@ -52,26 +67,28 @@ body {
 }
 
 .review section {
-	margin: 40px 0 40px 30px;
+	margin: 0 0 50px 30px;
 }
 
 .review section .title {
 	letter-spacing: 7px;
 	margin-top: 7px;
-	margin-bottom: -21px;
+	margin-bottom: -28px;
 }
 
 .review section .stat {
 	font-family: 'Roboto Condensed', sans-serif;
 	color: #A3352D;
 	font-size: 72pt;
-	letter-spacing: 10px;
+	text-transform: lowercase;
+	letter-spacing: 15px;
 	margin-bottom: -25px;
 }
 
 .review section .small-stat {
 	margin-top: -7px;
 	font-size: 24pt;
+	letter-spacing: 7px;
 	padding-left: 15px;
 }
 
