@@ -42,10 +42,43 @@ body {
 	color: #90E3C9;
 	font-size: 30pt;
 	font-weight: 300;
-	margin: 20% 0 0 100px;
+	margin: 7% 0 0 100px;
 }
 
 .review .week {
+	color: #A98AD6;
+	letter-spacing: 4px;
+	font-size: 36pt;
+}
+
+.review section {
+	margin: 40px 0 40px 30px;
+}
+
+.review section .title {
+	letter-spacing: 7px;
+	margin-top: 7px;
+	margin-bottom: -21px;
+}
+
+.review section .stat {
+	font-family: 'Roboto Condensed', sans-serif;
+	color: #A3352D;
+	font-size: 72pt;
+	letter-spacing: 10px;
+	margin-bottom: -25px;
+}
+
+.review section .small-stat {
+	margin-top: -7px;
+	font-size: 24pt;
+	padding-left: 15px;
+}
+
+.small-stat.posts span:last-child {
+	color: #A3352D;
+}
+.small-stat.posts span:first-child {
 	color: #A98AD6;
 }
 
