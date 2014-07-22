@@ -68,6 +68,20 @@ body {
 
 .review section {
 	margin: 0 0 50px 30px;
+	/*opacity: 0.5;*/
+	position: relative;
+	-webkit-animation: stats-in 1s;
+	animation: stats-in 1s;
+}
+
+@-webkit-keyframes stats-in {
+	from {opacity: 0.5; top: 15px;}
+	to {opacity: 1.0; top: 0px;}
+}
+
+@keyframes stats-in {
+	from {opacity: 0.5}
+	to {opacity: 1.0}
 }
 
 .review section .title {
