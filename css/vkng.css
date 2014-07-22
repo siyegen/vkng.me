@@ -79,10 +79,10 @@ body {
 .review section .stat {
 	font-family: 'Roboto Condensed', sans-serif;
 	color: #A3352D;
-	font-size: 72pt;
+	font-size: 48pt;
 	text-transform: lowercase;
-	letter-spacing: 15px;
-	margin-bottom: -25px;
+	letter-spacing: 5px;
+	margin-bottom: 0px;
 }
 
 .review section .small-stat {
@@ -104,6 +104,13 @@ body {
 		border-radius: 75px;
 		height: 150px;
 		width: 150px;
+	}
+}
+@media (min-width: 70em) {
+	.review section .stat {
+		font-size: 72pt;
+		letter-spacing: 15px;
+		margin-bottom: -25px;
 	}
 }
 @media (min-width: 48em) {
