@@ -1,0 +1,7 @@
+section {
+  -webkit-transition: opacity 1s ease-in 0s;
+  -moz-transition: opacity 1s ease-in 0s;
+  transition: opacity 1s ease-in 0s; }
+
+section:hover {
+  opacity: 0.3; }
