@@ -1,5 +1,6 @@
 body {
 	background-color: #ff4136;
+	font-family: 'Karla', sans-serif;
 }
 
 .center-badge {
@@ -15,4 +16,5 @@ p.text {
 	width: 700px;
 	color:white;
 	font-size: 18px;
+	font-family: 'Karla', sans-serif;
 }
