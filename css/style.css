@@ -1,0 +1,18 @@
+body {
+	background-color: #ff4136;
+}
+
+.center-badge {
+	width: 200px;
+	margin: 200px auto;
+	color: white;
+	text-align: center;
+	font-family: "Raleway", sans-serif;
+	font-size: 28px;
+}
+
+p.text {
+	width: 700px;
+	color:white;
+	font-size: 18px;
+}
