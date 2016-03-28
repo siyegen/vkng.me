@@ -1,13 +1,13 @@
 +++
 date = "2016-03-26T23:10:01-07:00"
-draft = true
+draft = false
 title = "What the hell is this"
 tags = ["blogging", "me"]
 showcase = "Read more to find out who the hell I am. It'll almost be entertaining, promise."
 
 +++
 
-This post is meant to be a short intro, think of it as a longer (possibly poorly written) version of the about page.
+This post is meant to be a short intro, think of it as a shorter (possibly poorly written) version of the about page.
 
 So my name is David, and I've been a software engineer for 7 years or so. During that time I've worked on html/css, javascript frontends, legacy systems that handle large amounts of traffic, and new systems that also handle large amounts of traffic.
 

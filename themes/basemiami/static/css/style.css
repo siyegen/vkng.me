@@ -18,7 +18,7 @@
 .base0b { color: #99cc99; }
 .base0c { color: #66cccc; }
 .base0d { color: #6699cc; }
-.base0e { color: #cc99cc; }
+.base0e { color: #F012BE; }
 .base0f { color: #d27b53; }
 
 /* General Page Layout */
@@ -57,6 +57,7 @@ article.single section,
   padding-top: 1rem;
   padding-bottom: 16px;
   padding-bottom: 1rem;
+  letter-spacing: 0.3px
 }
 
 @media (max-width: 72em) {
@@ -228,7 +229,7 @@ footer a {
 .homepage .category a,
 .homepage .tag,
 .homepage .tag a {
-  color: #cc99cc;
+  color: #F012BE;
 }
 
 .homepage .tag {
@@ -268,7 +269,7 @@ footer a {
 
 .article-list article .meta .val,
 .article-list article .meta .val a {
-  color: #cc99cc;
+  color: #F012BE;
 }
 
 .article-list article section.summary a { color: #d27b53; }
@@ -286,7 +287,7 @@ article.single .meta .key {
 }
 
 article.single .meta .val, article.single .meta .val a {
-  color: #cc99cc;
+  color: #F012BE;
 }
 
 @media (max-width: 72em) {
@@ -445,6 +446,11 @@ article.single hr {
 
 /* Start Custom Viking Styles */
 
+::selection {
+  background: #0074D9;
+  color: #7FDBFF;
+}
+
 a.header-links {
   color: #F012BE;
 }
@@ -551,7 +557,7 @@ pre { background: #2d2d2d; color: #f2f0ec }
 .highlight .hll { background-color: #515151 }
 .highlight .c { color: #747369 } /* Comment */
 .highlight .err { color: #f2777a } /* Error */
-.highlight .k { color: #cc99cc } /* Keyword */
+.highlight .k { color: #F012BE } /* Keyword */
 .highlight .l { color: #f99157 } /* Literal */
 .highlight .n { color: #f2f0ec } /* Name */
 .highlight .o { color: #66cccc } /* Operator */
@@ -567,11 +573,11 @@ pre { background: #2d2d2d; color: #f2f0ec }
 .highlight .gp { color: #747369; font-weight: bold } /* Generic.Prompt */
 .highlight .gs { font-weight: bold } /* Generic.Strong */
 .highlight .gu { color: #66cccc; font-weight: bold } /* Generic.Subheading */
-.highlight .kc { color: #cc99cc } /* Keyword.Constant */
-.highlight .kd { color: #cc99cc } /* Keyword.Declaration */
+.highlight .kc { color: #F012BE } /* Keyword.Constant */
+.highlight .kd { color: #F012BE } /* Keyword.Declaration */
 .highlight .kn { color: #66cccc } /* Keyword.Namespace */
-.highlight .kp { color: #cc99cc } /* Keyword.Pseudo */
-.highlight .kr { color: #cc99cc } /* Keyword.Reserved */
+.highlight .kp { color: #F012BE } /* Keyword.Pseudo */
+.highlight .kr { color: #F012BE } /* Keyword.Reserved */
 .highlight .kt { color: #ffcc66 } /* Keyword.Type */
 .highlight .ld { color: #99cc99 } /* Literal.Date */
 .highlight .m { color: #f99157 } /* Literal.Number */
