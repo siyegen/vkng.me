@@ -1,3 +1,11 @@
 baseurl = "http://www.vkng.me"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Viking in Training"
+
+[author]
+  name = "David Tomberlin"
+
+  [taxonomies]
+  tag = "tags"
+  category = "categories"
+  series = "series"

@@ -1,0 +1,19 @@
+{{ $dateMissing := eq .content.Date.Year 1}}
+<li class="showcase-list-item sc-{{ .idx }}">
+  <article class="list-item" itemscope itemtype="http://schema.org/Blog">
+    <h2 class="headline" itemprop="headline"><a href="{{ .content.RelPermalink }}">{{ .content.Title }}{{ if .content.Draft }} (Draft){{ end }}</a></h2>
+    <div class="meta">
+  {{ if eq $dateMissing false }}
+      <span class="key">on</span>
+      <span class="val"><time itemprop="datePublished" datetime="{{ .Date.Format "2006-01-02" }}">{{ .content.Date.Format "January 02, 2006" }}</time></span>
+  {{ end }}
+    </div>
+    <section class="summary">
+      {{ if .content.Params.showcase }}
+        {{ .content.Params.showcase }}
+      {{ else }}
+        Read More
+      {{ end }}
+    </section>
+  </article>
+</li>
