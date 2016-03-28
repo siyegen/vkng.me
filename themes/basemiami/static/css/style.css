@@ -138,6 +138,8 @@ pre, code {
 
 header a.path {
   color: #7FDBFF;
+  text-decoration: none;
+  font-size: 18px;
 }
 
 header span.caret {
@@ -187,7 +189,8 @@ footer a {
 .homepage h1.site-title {
   text-align: center;
   font-size: 5em;
-  color: #66cccc;
+  color: #01FF70;
+  margin: 0;
 }
 
 @media (max-width: 72em) {
@@ -440,6 +443,17 @@ article.single hr {
   border-bottom-color: #a09f93;
 }
 
+/* Start Custom Viking Styles */
+
+a.header-links {
+  color: #F012BE;
+}
+
+.info-links {
+    float: right;
+    color: #B10DC9;
+}
+
 /* Additional styles for showcase */
 ul.showcase-list {
   width: 72em;
@@ -454,6 +468,11 @@ li.showcase-list-item {
   display: inline-block;
   width: 21em;
   vertical-align: top;
+}
+
+li.showcase-list-item .summary {
+  text-align: left;
+  padding: 2px 10px;
 }
 
 @media (max-width: 72em) {
@@ -523,6 +542,7 @@ li.showcase-list-item article.list-item {
   font-weight: normal;
 }
 
+/* End Custom Viking Styles */
 
 /* Pygments template by Jan T. Sott (https://github.com/idleberg) */
 
