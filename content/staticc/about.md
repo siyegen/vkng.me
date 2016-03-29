@@ -5,7 +5,7 @@ title = "about"
 
 +++
 
-Yo, my name is David and I go by viking at work. Why? David is a fairly common name, so of course have 5 Davids where I work. I happened to be the one with a large beard and a tendency to pick things up, so boom, viking became my HipChat handle and it's kind of stuck ever sense.
+Yo, my name is David and I go by viking at work. Why? David is a fairly common name, so of course we have 5 Davids where I work. I happened to be the one with a large beard and a tendency to pick things up, so boom, viking became my HipChat handle and it's kind of stuck ever since.
 
 Looking for a more profession view of who I am? Check out my resume [coming soon].
 
