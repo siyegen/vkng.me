@@ -9,3 +9,13 @@ title = "Viking [in Training]"
   tag = "tags"
   category = "categories"
   series = "series"
+
+[params]
+    # You can use markdown here.
+    brand = "Viking"
+    topline = "Software Dev, Gamer, Lifter"
+    footline = ""
+
+    # Sidebar position
+    # false, true, "left", "right"
+    sidebar = "left"
