@@ -29,3 +29,10 @@
 </header>
 
 <div class="container">
+<!-- TESTING
+    {{ $isHomePage := eq .Title .Site.Title }}
+    {{ if eq $isHomePage true }}
+      {{ partial "base/header" . }}
+    {{ end }}
+    {{ .Site.Params }}
+  -->

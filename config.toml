@@ -5,17 +5,17 @@ title = "Viking [in Training]"
 [author]
   name = "David Tomberlin"
 
-  [taxonomies]
+[taxonomies]
   tag = "tags"
   category = "categories"
   series = "series"
 
 [params]
-    # You can use markdown here.
-    brand = "Viking"
-    topline = "Software Dev, Gamer, Lifter"
-    footline = ""
+  # You can use markdown here.
+  brand = "Viking"
+  topline = "Software Dev, Gamer, Lifter"
+  footline = ""
 
-    # Sidebar position
-    # false, true, "left", "right"
-    sidebar = "left"
+  # Sidebar position
+  # false, true, "left", "right"
+  sidebar = "left"
