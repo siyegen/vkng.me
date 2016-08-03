@@ -1,0 +1,7 @@
+<p class="container content">
+  {{ if .Params.showcase }}
+    {{ .Params.showcase }}
+  {{ else }}
+    {{ partial "modules/page/summary" . }}
+  {{ end }}
+</p>

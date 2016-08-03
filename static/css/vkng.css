@@ -1,0 +1,31 @@
+body {
+  font-family: 'Work Sans', sans-serif;
+  background-color: #282c34;
+  color: #fff;
+}
+
+a {
+  color: #43d08a;
+}
+
+main#main-wrapper {
+  background-color: #282c34;
+}
+
+.container .topline {
+  margin-top: 1em;
+}
+
+.main_wrapper>.main_content .hat h2, .main_wrapper>.main_content h1, .main_wrapper>.main_header .brand .title {
+  margin-bottom: 0;
+}
+
+.main_wrapper>.main_content .label:hover, .main_wrapper>.main_content .navigation a:hover, .main_wrapper>.main_content .pagination a:hover, .main_wrapper>.main_content .readlink a:hover, .main_wrapper>.main_content h2 a:hover, .main_wrapper>.main_header a:hover {
+  background-color: #43d08a;
+  color: #000;
+}
+
+.main_wrapper>.main_header {
+  background-color: #312859;
+  border-right: 1px solid #112130;
+}
