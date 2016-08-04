@@ -12,6 +12,15 @@ main#main-wrapper {
   background-color: #282c34;
 }
 
+header h1 {
+  color: #43d08a;
+}
+
+.contact_link>span {
+  display: inherit;
+  padding-left: 5px;
+}
+
 .container .topline {
   margin-top: 1em;
 }
@@ -27,5 +36,15 @@ main#main-wrapper {
 
 .main_wrapper>.main_header {
   background-color: #312859;
-  border-right: 1px solid #112130;
+}
+
+@media (min-width: 640px) {
+  .main_wrapper>.main_header {
+    border-right: 1px solid #112130;
+  }
+}
+@media (max-width: 640px) {
+  .main_wrapper>.main_header {
+    border-bottom: 1px solid #112130;
+  }
 }

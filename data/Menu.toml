@@ -1,0 +1,8 @@
+[about]
+  Name ="About"
+  URL = "/staticc/about"
+
+[posts]
+  Name = "All Posts"
+  Title = "Read all of it"
+  URL = "/post"

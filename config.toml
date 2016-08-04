@@ -4,6 +4,7 @@ title = "Viking [in Training]"
 
 [author]
   name = "David Tomberlin"
+  email = "siyegen @ gmail"
 
 [taxonomies]
   tag = "tags"
@@ -14,6 +15,8 @@ title = "Viking [in Training]"
   # You can use markdown here.
   brand = "Viking"
   topline = "Software Dev, Gamer, Lifter"
+  twitter = "siyegen"
+  github = "siyegen"
   footline = ""
 
   # Sidebar position
